@@ -1,17 +1,40 @@
-# 🚦 GTSRB Traffic Sign Recognition (HPC & CNN)
+# GTSRB Traffic Sign Recognition (CNN & GPU)
 
-**Project:** Master 2 High Performance Computing & Simulation (UPVD)  
-**Author:** Salma Bensmail
+Ce projet présente l’implémentation et l’entraînement d’un réseau de neurones convolutif (CNN) pour la reconnaissance de panneaux de signalisation à partir du dataset **GTSRB (German Traffic Sign Recognition Benchmark)**. L’objectif est de construire un modèle de classification d’images efficace tout en exploitant l’accélération GPU pour l’entraînement.
 
-## 📝 Overview
-This project implements a lightweight **Convolutional Neural Network (CNN)** from scratch to classify traffic signs using the **GTSRB** (German Traffic Sign Recognition Benchmark) dataset. The focus was on **GPU optimization** and efficient training pipelines.
+## Aperçu du projet
 
-## 📂 Project Files
-- **📄 [Technical Report](docs/Report_GTSRB_CNN.pdf)** : Full methodology, architecture details, and results analysis.
-- **📊 [Presentation Slides](docs/Presentation_GTSRB.pdf)** : Summary of the project and key findings.
-- **💻 [Source Code](notebooks/GTSRB_Training.pdf)** : Implementation details (TensorFlow/Keras).
+Le projet s’inscrit dans un contexte de calcul haute performance appliqué au deep learning. Il met en œuvre un CNN léger développé avec **TensorFlow/Keras** pour classifier les images du dataset GTSRB, avec un focus sur la qualité de l’entraînement, la performance du modèle et l’utilisation du GPU.
 
-## 🚀 Key Results
-- **Accuracy**: 90.5% on Test set.
-- **Architecture**: Custom CNN (6.8M params).
-- **Tech**: TensorFlow, Keras, Python, GPU Acceleration.
+## Objectifs
+
+- Préparer et exploiter le dataset GTSRB pour une tâche de classification d’images.
+- Concevoir un modèle CNN adapté à la reconnaissance de panneaux.
+- Entraîner le modèle avec accélération GPU.
+- Évaluer les performances obtenues sur l’ensemble de test.
+
+## Résultats principaux
+
+- **Accuracy sur le jeu de test : 90.5 %**
+- **Architecture :** CNN personnalisé
+- **Technologies :** Python, TensorFlow, Keras, Jupyter Notebook, GPU Acceleration
+
+Ces résultats montrent qu’un modèle CNN relativement léger peut atteindre de bonnes performances sur GTSRB avec une approche d’entraînement bien structurée.
+
+## Fichiers du projet
+
+- `notebooks/` : notebooks d’entraînement, expérimentation et évaluation.
+- `docs/` : documents associés au projet.
+- `README.md` : présentation générale du projet.
+
+## Stack technique
+
+- Python
+- TensorFlow / Keras
+- Jupyter Notebook
+- GPU Computing
+
+## Contexte académique
+
+Projet réalisé dans le cadre du **Master 2 High Performance Computing & Simulation (UPVD)**.
+
